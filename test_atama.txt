@@ -1,0 +1,31 @@
+@ Atama işlemleri testi
+
+@ Tamsayı atama
+tanımla sayi1 tür tamsayı başlangıç 10$
+yazdır("sayi1 ilk değer: " + sayi1)$
+sayi1 = 20$
+yazdır("sayi1 yeni değer: " + sayi1)$
+
+@ Ondalık atama
+tanımla pi tür ondalık başlangıç 3.14$
+yazdır("pi ilk değer: " + pi)$
+pi = 3.14159$
+yazdır("pi yeni değer: " + pi)$
+
+@ Yazı atama
+tanımla mesaj tür yazı başlangıç "Merhaba"$
+yazdır("mesaj ilk değer: " + mesaj)$
+mesaj = "Merhaba Dünya"$
+yazdır("mesaj yeni değer: " + mesaj)$
+
+@ Mantıksal atama
+tanımla durum tür mantıksal başlangıç doğru$
+yazdır("durum ilk değer: " + durum)$
+durum = yanlış$
+yazdır("durum yeni değer: " + durum)$
+
+@ Girdi ile atama
+tanımla isim tür yazı başlangıç ??Adınızı girin: ??$
+yazdır("Merhaba " + isim)$
+isim = "Sayın " + isim$
+yazdır("Yeni mesaj: " + isim)$ 

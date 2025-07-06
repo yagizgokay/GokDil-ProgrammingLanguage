@@ -1,0 +1,11 @@
+tanımla x tür tamsayı başlangıç$
+
+böyleyken x < 5 {
+    yazdır(x)$
+    x = x + 1$
+}
+
+ise x > 3 {
+    yazdır("x büyüktür 3")$
+} değilse
+    yazdır("x küçük veya eşittir 3")$

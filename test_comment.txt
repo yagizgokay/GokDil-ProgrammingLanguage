@@ -1,0 +1,20 @@
+@ Bu bir yorum satırıdır
+@ Değişken tanımlama
+tanımla x tür tamsayı başlangıç 42$
+
+@ Döngü örneği
+böyleyken (x > 0) {
+    @ x değerini yazdır
+    yazdır(x)$
+    @ x'i azalt
+    x = x - 1$
+}
+
+@ if-else yapısını test edelim
+ise (x > 5) {
+    @ x 5'ten büyükse bu mesajı yazdır
+    yazdır("x 5'ten büyük")$
+} değilse {
+    @ x 5'ten küçük veya eşitse bu mesajı yazdır
+    yazdır("x 5'ten küçük veya eşit")$
+} 

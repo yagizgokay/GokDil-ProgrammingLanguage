@@ -1,0 +1,7 @@
+tanımla x tür tamsayı başlangıç 3$
+
+ise (x > 0) {
+    yazdır("x sıfırdan büyük")$
+} değilse {
+    yazdır("x sıfırdan küçük veya eşit")$
+} 

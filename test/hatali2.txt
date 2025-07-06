@@ -1,0 +1,50 @@
+tanımla z tür tamsayı değer 10$
+ise z büyük 5 {
+  yazdır("z büyüktür 5")$
+}
+
+tanımla sayi tür tamsayı başlangıç "5"$ // string değer tamsayı değişkene atanıyor
+
+tanımla metin tür metin başlangıç 42$ // sayısal değer metin değişkene atanıyor
+
+sayi = metin + 3$ // metin ile sayı toplanıyor
+
+fonksiyon topla(x, y) {
+    dön x + y$
+}
+
+topla("2", 3)$ // string ve sayı ile fonksiyon çağrısı
+
+fonksiyon çarp(x, y) {
+    tanımla sonuc tür tamsayı başlangıç x * y$
+}
+
+while (x < 5) {
+    yazdır(x)$
+    x = x + 1$
+}
+
+ise (x > 5 && y < 10) {
+    yazdır("Hatalı")$
+}
+
+fonksiyon kare(sayı) {
+    dön sayı * sayı$
+}
+tanımla sonuc tür tamsayı başlangıç kare("5")$
+
+ise (x > 0) {
+    ise (y > 0 {
+        yazdır("Pozitif")$
+    }
+}
+
+tanımla isim tür yazı başlangıç input("Adınız: ")$
+
+tanımla çarpım tür tamsayı başlangıç 5$
+
+ise (x === 5) {
+    yazdır("Eşit")$
+}
+
+tanımla k tür tamsayı 42$

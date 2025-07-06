@@ -1,0 +1,6 @@
+tanımla x tür tamsayı başlangıç 0$
+
+böyleyken (x < 3) {
+    yazdır(x)$
+    x = x + 1$
+}

@@ -1,0 +1,7 @@
+@ Fonksiyon tanımı ve çağrısı testi
+fonksiyon topla(x, y) {
+    dön x + y$
+}
+
+tanımla sonuc tür tamsayı başlangıç topla(3, 4)$
+yazdır(sonuc)$ 

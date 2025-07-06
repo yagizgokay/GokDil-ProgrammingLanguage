@@ -1,0 +1,3 @@
+@ Kullanıcıdan girdi alma testi
+tanımla isim tür yazı başlangıç ??Adınızı girin: ??$
+yazdır("Merhaba, " + isim)$ 

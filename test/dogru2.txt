@@ -1,0 +1,51 @@
+@ Fonksiyon tanımlama ve kullanma örnekleri
+fonksiyon faktöriyel(n) {
+    ise (n <= 1) {
+        dön 1$
+    }
+    dön n * faktöriyel(n - 1)$
+}
+
+fonksiyon topla(x, y) {
+    dön x + y$
+}
+
+@ Fonksiyon kullanımı
+tanımla sonuc1 tür tamsayı başlangıç faktöriyel(5)$
+yazdır("5 faktöriyel: " + sonuc1)$
+
+tanımla sonuc2 tür tamsayı başlangıç topla(10, 20)$
+yazdır("Toplam: " + sonuc2)$
+
+@ İç içe döngü örneği
+tanımla i tür tamsayı başlangıç 1$
+böyleyken (i <= 3) {
+    tanımla j tür tamsayı başlangıç 1$
+    böyleyken (j <= i) {
+        yazdır("i: " + i + ", j: " + j)$
+        j = j + 1$
+    }
+    i = i + 1$
+}
+
+@ Karmaşık hesaplama örneği
+fonksiyon üsAl(taban, üs) {
+    ise (üs == 0) {
+        dön 1$
+    }
+    tanımla sonuc tür tamsayı başlangıç taban$
+    tanımla sayac tür tamsayı başlangıç 1$
+    böyleyken (sayac < üs) {
+        sonuc = sonuc * taban$
+        sayac = sayac + 1$
+    }
+    dön sonuc$
+}
+
+tanımla üsSonuc tür tamsayı başlangıç üsAl(2, 3)$
+yazdır("2 üzeri 3 = " + üsSonuc)$
+
+@ Dizi benzeri işlemler (string manipülasyonu)
+tanımla mesaj tür yazı başlangıç "GökDil"$
+yazdır("Selam " + mesaj + "!")$
+yazdır("Programlama " + "Dili")$

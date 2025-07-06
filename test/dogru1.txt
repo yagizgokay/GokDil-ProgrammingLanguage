@@ -1,0 +1,38 @@
+@ Temel veri tipleri ve değişken tanımlama örnekleri
+tanımla sayi1 tür tamsayı başlangıç 42$
+tanımla sayi2 tür tamsayı başlangıç 3$
+tanımla metin tür yazı başlangıç "Merhaba GökDil"$
+
+@ Aritmetik operatörler
+tanımla toplam tür tamsayı başlangıç sayi1 + 8$
+tanımla carpim tür tamsayı başlangıç sayi1 * 2$
+tanımla bolum tür tamsayı başlangıç sayi1 / 2$
+tanımla kalan tür tamsayı başlangıç sayi1 % 5$
+
+@ Karşılaştırma operatörleri ve koşullu ifadeler
+ise (sayi1 > 40) {
+    yazdır("sayi1 40'tan büyük")$
+} değilse ise (sayi1 == 40) {
+    yazdır("sayi1 40'a eşit")$
+} değilse {
+    yazdır("sayi1 40'tan küçük")$
+}
+
+@ Döngü örneği
+tanımla sayac tür tamsayı başlangıç 0$
+böyleyken (sayac < 3) {
+    yazdır(sayac)$
+    sayac = sayac + 1$
+}
+
+@ Mantıksal operatörler örneği
+ise (sayi1 > 40 ve sayi2 < 5) {
+    yazdır("sayi1 40'tan büyük ve sayi2 5'ten küçük")$
+}
+
+ise (sayi1 < 0 veya sayi2 > 0) {
+    yazdır("sayi1 sıfırdan küçük veya sayi2 sıfırdan büyük")$
+}
+
+@ String birleştirme örneği
+yazdır("Sayı değeri: " + sayi1)$
