@@ -1,4 +1,4 @@
-# GökDil - Türkçe Programlama Dili
+# GökDil - Türkçe Programlama Dili 🇹🇷
 
 <img src="src/resources/logo.png" width="200" height="200" alt="GökDil Logo">
 
@@ -74,27 +74,17 @@ böyleyken (sayac < 3) {
 
 ## Özel Sözdizimi Özellikleri / Special Syntax Features
 
-1. Her ifade sonunda `$` işareti kullanılır
-2. Yorum satırları `@` işareti ile başlar
-3. Metin değerleri çift tırnak içinde yazılır
-4. Bloklar süslü parantez `{}` içinde tanımlanır
-
-1. Each statement ends with `$`
-2. Comments start with `@`
-3. String values are enclosed in double quotes
-4. Blocks are defined within curly braces `{}`
+1. Her ifade sonunda `$` işareti kullanılır / Each statement ends with `$`
+2. Yorum satırları `@` işareti ile başlar / Comments start with `@`
+3. Metin değerleri çift tırnak içinde yazılır / String values are enclosed in double quotes
+4. Bloklar süslü parantez `{}` içinde tanımlanır / Blocks are defined within curly braces `{}`
 
 ## Kullanım / Usage
 
-1. Test dosyalarınızı `.txt` uzantısı ile kaydedin
-2. GökDil GUI uygulamasını başlatın
-3. "Test Dosyası Seç" butonuna tıklayın
-4. Çalıştırmak istediğiniz dosyayı seçin
-
-1. Save your test files with `.txt` extension
-2. Launch the GökDil GUI application
-3. Click "Select Test File" button
-4. Choose the file you want to run
+1. Test dosyalarınızı `.txt` uzantısı ile kaydedin / Save your test files with `.txt` extension
+2. GökDil GUI uygulamasını başlatın / Launch the GökDil GUI application
+3. "Test Dosyası Seç" butonuna tıklayın / Click "Select Test File" button
+4. Çalıştırmak istediğiniz dosyayı seçin / Choose the file you want to run
 
 ## Geliştirme Ortamı / Development Environment
 
@@ -138,13 +128,13 @@ GökDil reports programming errors in Turkish:
 
 ## Katkıda Bulunma / Contributing
 
-GökDil, açık kaynaklı bir projedir. Katkılarınızı bekliyoruz:
+GökDil, açık kaynaklı bir projedir. Katkılarınızı beklerim 😊:
 1. Yeni özellikler ekleyin
 2. Hataları düzeltin
 3. Dokümantasyonu geliştirin
 4. Test dosyaları oluşturun
 
-GökDil is open source. Contributions are welcome:
+GökDil is open source. Contributions are welcome 😌:
 - Add new features
 - Fix bugs
 - Improve documentation
